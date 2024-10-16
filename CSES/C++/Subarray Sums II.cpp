@@ -1,10 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 #define ln '\n'
 typedef long long ll;
 const int mxN = 2e5;
-
 int main()
 {
     ll n, target;
@@ -21,8 +19,6 @@ int main()
         ans += mp[sum - target];
         mp[sum]++;
     }
-
     cout << ans << endl;
-
     return 0;
 }
